@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import store from "../../store";
+// import store from "../../store";
 
 function Customer() {
   // to read data from the store

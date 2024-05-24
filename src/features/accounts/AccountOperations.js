@@ -96,7 +96,10 @@ function AccountOperations() {
 
         {currLoan > 0 && (
           <div>
-            <span>Pay back ${currLoan}</span>
+            <span>
+              Pay back ${currLoan}
+              {currLoanPurpose}
+            </span>
             <button onClick={handlePayLoan}>Pay loan</button>
           </div>
         )}
