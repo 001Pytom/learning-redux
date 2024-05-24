@@ -5,7 +5,7 @@ import { createCustomer } from "./customerSlice";
 function Customer() {
   const [fullName, setFullName] = useState("");
   const [nationalId, setNationalId] = useState("");
-
+  // to be able to use dispatch
   const dispatch = useDispatch();
   function handleClick() {
     if (!fullName || !nationalId) return;
